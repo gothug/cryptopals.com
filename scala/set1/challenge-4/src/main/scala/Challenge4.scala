@@ -23,9 +23,6 @@ object challenge4 {
       }
 
   def main(args: Array[String]) {
-      val encStr =
-        "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
-
       val source = scala.io.Source.fromFile("4.txt")
       val lines = source.mkString
       source.close()
